@@ -162,7 +162,7 @@ jobs:
       - name: Apply dsh-web-app patch
         shell: bash
         working-directory: build_dir
-        run: node ../../scripts/apply-dsh-web-app-patch.mjs
+        run: node ../scripts/apply-dsh-web-app-patch.mjs
 
       - name: Verify runtime closure and source-built CLI
         shell: bash
