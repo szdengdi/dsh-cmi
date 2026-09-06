@@ -197,10 +197,11 @@ jobs:
         shell: bash
         working-directory: build_dir
         run: |
+          # 输出到仓库根（build_dir 的上一级），与 Upload artifact 的 path 对齐。
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
-            7z a ../../${{ matrix.artifact_name }} node_modules package.json patches
+            7z a ../${{ matrix.artifact_name }} node_modules package.json patches
           else
-            zip -r ../../${{ matrix.artifact_name }} node_modules package.json patches
+            zip -r ../${{ matrix.artifact_name }} node_modules package.json patches
           fi
 
       - name: Upload artifact
