@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+	<rect x="2" y="2" width="44" height="44" rx="10" fill="#003C8F"/>
+	<path d="M2 38 L2 48 L12 48 Z" fill="#0085D0" opacity="0.9"/>
+	<text x="24" y="31" text-anchor="middle" font-family="MiSans, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">AI</text>
+</svg>
